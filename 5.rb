@@ -13,9 +13,12 @@ def az(p1,p2)
         return p1 * p2
     end
     
-    elsif (p1.is_a?(String) && p2.is_a?(String))
+    elsif p1.size == 0 && p2.size == 0
+        "bo'm bo'sh"
+    else
         "String kiritish mumkun emas"
+    
     end
     
 end
-puts az( 10, 10)
+puts az(14,1)
