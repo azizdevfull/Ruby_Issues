@@ -1,3 +1,6 @@
-print "Your name:"
-name = gets
-puts "Hello #{name}, nice to meet you!"
+print "input your radius: "
+r = gets.to_i
+
+area = Math::PI * r * r
+
+puts "Area of circule is #{area}."
